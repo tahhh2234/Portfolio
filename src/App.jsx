@@ -4,9 +4,10 @@ import Footer from './components/Footer';
 
 function App({children}) {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500 flex flex-col">
+    <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
       <main className="flex-grow">
+        hello
         {children}
       </main>
       <Footer />
