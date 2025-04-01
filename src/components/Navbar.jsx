@@ -20,8 +20,8 @@ const Navbar = () => {
 
   const menuItems = [
     { title: "Home", to: "/" },
-    { title: "About", to: "/about" },
     { title: "Projects", to: "/projects" },
+    { title: "About", to: "/about" },
     { title: "Contact", to: "/contact" },
   ];
 
