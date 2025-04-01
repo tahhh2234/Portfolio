@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   const contactInfo = [
-    { icon: FiMail, text: "thadpongsermsook1@gmail.com", href: "#" },
+    { icon: FiMail, text: "thadpongsermsook@gmail.com", href: "#" },
     { icon: FiPhone, text: "098-748-8483", href: "#" },
     {
       icon: FiMapPin,
