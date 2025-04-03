@@ -155,6 +155,7 @@ const Contact = () => {
                 ))}
               </div>
             </div>
+            {/* social media */}
             <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
                 Social media

@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               A Computer Engineering student with a strong passion for frontend
               development and software testing. Experienced in building web
-              applications using React and Python.
+              applications.
             </p>
           </div>
           {/* contact */}
