@@ -5,6 +5,7 @@ import {
   FiMail,
   FiMapPin,
   FiPhone,
+  FiInstagram
 } from "react-icons/fi";
 import { motion } from "framer-motion";
 
@@ -33,6 +34,11 @@ const Contact = () => {
       icon: FiFacebook,
       href: "https://www.facebook.com/cheetah.thadpong/",
       label: "Facebook",
+    },
+    {
+      icon: FiInstagram,
+      href: "https://www.instagram.com/cheetah_thadpong/",
+      label: "Instagram",
     },
   ];
 

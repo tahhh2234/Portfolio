@@ -1,10 +1,5 @@
 import { motion } from "framer-motion";
 import {
-  HiOutlineCode,
-  HiOutlineLightBulb,
-  HiOutlineDesktopComputer,
-} from "react-icons/hi";
-import {
   SiJavascript,
   SiReact,
   SiTypescript,
@@ -25,27 +20,6 @@ const About = () => {
     { name: "MySQL", icon: SiMysql, color: "text-blue-500" },
   ];
 
-  const features = [
-    {
-      icon: HiOutlineCode,
-      title: "การพัฒนา",
-      description:
-        "พัฒนาเว็บแอปพลิเคชันด้วยเทคโนโลยีที่ทันสมัย เน้นการเขียนโค้ดที่มีคุณภาพและยั่งยืน",
-    },
-    {
-      icon: HiOutlineLightBulb,
-      title: "การแก้ปัญหา",
-      description:
-        "วิเคราะห์และแก้ไขปัญหาอย่างเป็นระบบ พร้อมนำเสนอวิธีแก้ไขที่มีประสิทธิภาพ",
-    },
-    {
-      icon: HiOutlineDesktopComputer,
-      title: "การออกแบบ UI/UX",
-      description:
-        "ออกแบบส่วนติดต่อผู้ใช้ที่สวยงามและใช้งานง่าย เน้นประสบการณ์ผู้ใช้เป็นหลัก",
-    },
-  ];
-
   return (
     <section className="min-h-screen py-28" id="about">
       <div className="max-w-7xl mx-auto px-6">
@@ -61,7 +35,7 @@ const About = () => {
             About me
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-200 max-w-3xl mx-auto">
-            I'm a Computer Engineering student with a strong passion for
+            I&apos;m a Computer Engineering student with a strong passion for
             frontend development. Experienced in building web applications.
           </p>
         </motion.div>

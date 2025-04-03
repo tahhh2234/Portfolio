@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -67,6 +67,11 @@ const Home = () => {
                 Icon: FiFacebook,
                 href: "https://www.facebook.com/cheetah.thadpong/",
                 label: "Facebook",
+              },
+              {
+                Icon: FiInstagram,
+                href: "https://www.instagram.com/cheetah_thadpong/",
+                label: "Instagram",
               },
             ].map(({ Icon, href, label }) => (
               <motion.a

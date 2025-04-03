@@ -1,4 +1,4 @@
-import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiFacebook, FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -18,6 +18,11 @@ const Footer = () => {
       icon: FiFacebook,
       href: "https://www.facebook.com/cheetah.thadpong/",
       label: "Facebook",
+    },
+    {
+      icon: FiInstagram,
+      href: "https://www.instagram.com/cheetah_thadpong/",
+      label: "Instagram",
     },
   ];
 
